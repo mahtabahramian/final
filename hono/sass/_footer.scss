@@ -1,0 +1,53 @@
+footer{
+    background: #24262b;
+    color: white ;
+    text-align: end;
+    padding-top: 100px;
+
+    h5{
+        padding-right: 11%;
+        // line-height: 1;
+        color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    // padding-bottom: 20px;
+    // margin-bottom: 23px;
+    text-transform: uppercase;
+   
+}
+    
+    a{
+        color: white;
+    }
+    ul{
+      
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            // line-height: 1 !important;
+            margin-bottom: 8px;
+           
+            // display: block;
+            a{
+                display: inline-block;
+                color: #9b9b97;
+            }
+        }
+    }
+    hr{
+        padding-right: 11%;
+        background: #b19361;
+       height: 3px;
+       
+    }
+}
+.zoom{
+    transition: transform 1s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }

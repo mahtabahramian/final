@@ -1,0 +1,60 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  font-size: 16px;
+  background: rgba(242, 232, 231, 0.5);
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+.swiper-button-prev::after {
+  font-size: 14px;
+}
+
+.swiper-button-next::after {
+  font-size: 14px;
+}
+
+ span.swiper-pagination-bullet-active,.swiper-pagination-bullet{
+  background: #b19361;
+  width: 15px ;
+  height: 15px;
+}

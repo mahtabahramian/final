@@ -1,0 +1,58 @@
+header{
+    background-color: #fef5ef;
+    padding: 1rem;
+ a:hover{
+    color: #b19361;
+ }
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+.container-fluid{
+    padding-right: 2rem ;
+    padding-left: 2rem ;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    img{
+        width: 90%;
+        height: auto;
+    }
+}
+.child1{
+    display: none;
+    z-index: 2;
+    &>a{
+        padding: 0.5rem;
+ 
+      
+    }
+    li{
+        line-height: 3rem !important;
+        text-align: end;
+    }
+}
+.parent1{
+    position: relative;
+}
+.parent1:hover{
+    .child1{
+        display: block;
+        position: absolute;
+        background-color: white;
+        width: 10rem;
+        top: 2rem;
+
+    }
+}
+
